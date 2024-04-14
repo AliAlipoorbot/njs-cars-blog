@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.container h2 {
+  margin: 50px 0;
+}
+
+.container span {
+  color: #3e47dd;
+  font-size: 2rem;
+  text-shadow: 0px 4px 5px #3e47dd;
+}
+
+.container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  background-color: teal;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  width: fit-content;
+  background-color: #e3e3e3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 20px 24px;
+  cursor: pointer;
+}
+
+.back p {
+  margin-left: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container div {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  background-color: #e3e3e3;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.container div p {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}

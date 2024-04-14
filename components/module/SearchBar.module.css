@@ -1,0 +1,33 @@
+.container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 10px;
+  height: 1.3rem;
+  font-size: 11px;
+  min-width: 255px;
+}
+
+.container button {
+  margin: 5px 10px;
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+}
